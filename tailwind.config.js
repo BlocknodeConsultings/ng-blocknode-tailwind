@@ -1,7 +1,7 @@
 const { createTrue } = require('typescript');
 
 require('dotenv').config();
-const enablePurge = process.env.ENABLE_PURGE || true;
+const enablePurge = process.env.ENABLE_PURGE || false;
 
 module.exports = {
   purge:{
